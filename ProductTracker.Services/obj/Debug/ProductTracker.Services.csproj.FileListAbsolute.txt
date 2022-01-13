@@ -1,0 +1,16 @@
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\ProductTracker.Services.dll.config
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\ProductTracker.Services.dll
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\ProductTracker.Services.pdb
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\EntityFramework.dll
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\EntityFramework.xml
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\obj\Debug\ProductTracker.Services.csproj.AssemblyReference.cache
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\obj\Debug\ProductTracker.Services.csproj.CoreCompileInputs.cache
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\obj\Debug\ProductTracker.Services.csproj.CopyComplete
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\obj\Debug\ProductTracker.Services.dll
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\obj\Debug\ProductTracker.Services.pdb
