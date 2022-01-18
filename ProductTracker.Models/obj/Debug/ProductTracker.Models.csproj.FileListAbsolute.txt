@@ -9,7 +9,6 @@ C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Models\
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Models\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Models\obj\Debug\ProductTracker.Models.csproj.AssemblyReference.cache
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Models\obj\Debug\ProductTracker.Models.csproj.CoreCompileInputs.cache
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Models\obj\Debug\ProductTracker.Models.csproj.CopyComplete
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Models\obj\Debug\ProductTracker.Models.dll

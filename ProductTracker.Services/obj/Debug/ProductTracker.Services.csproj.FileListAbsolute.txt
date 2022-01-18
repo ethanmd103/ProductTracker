@@ -5,6 +5,12 @@ C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Service
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\ProductTracker.Data.dll
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\ProductTracker.Models.dll
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\ProductTracker.Data.pdb
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\ProductTracker.Data.dll.config
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\ProductTracker.Models.pdb
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\ProductTracker.Models.dll.config
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\EntityFramework.xml
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml

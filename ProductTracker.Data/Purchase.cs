@@ -24,6 +24,7 @@ namespace ProductTracker.Data
         public string Condition { get; set; }
         [Required]
         public DateTime PurchaseDate { get; set; }
+        public Guid OwnerID { get; set; }
         public virtual List<Product> Products { get; set; } 
 
     }

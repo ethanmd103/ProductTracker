@@ -56,6 +56,8 @@
   <ItemGroup>
     <Compile Include="ProductService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseService.cs" />
+    <Compile Include="ResellService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

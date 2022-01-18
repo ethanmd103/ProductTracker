@@ -20,6 +20,7 @@ namespace ProductTracker.Data
         public string Category { get; set; }
         [Required]
         public int MSRP { get; set; }
+        public Guid OwnerID { get; set; }
         public virtual List<Purchase> Purchases { get; set; }
         public virtual List<Resell> Resells { get; set; }
         

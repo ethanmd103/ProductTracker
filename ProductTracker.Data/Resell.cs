@@ -21,6 +21,7 @@ namespace ProductTracker.Data
         public string Location { get; set; }
         [Required]
         public DateTime ResellDate { get; set; }  
+        public Guid OwnerID { get; set; }
         public virtual List<Product> Products { get; set; }
 
     }

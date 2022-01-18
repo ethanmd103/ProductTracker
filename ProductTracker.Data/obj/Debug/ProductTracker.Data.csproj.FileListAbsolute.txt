@@ -9,10 +9,9 @@ C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\bi
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\obj\Debug\ProductTracker.Data.csproj.AssemblyReference.cache
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\obj\Debug\ProductTracker.Data.Migrations.initialMigration.resources
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\obj\Debug\ProductTracker.Data.csproj.GenerateResource.cache
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\obj\Debug\ProductTracker.Data.csproj.CoreCompileInputs.cache
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\obj\Debug\ProductTracker.Data.csproj.CopyComplete
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\obj\Debug\ProductTracker.Data.dll
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\obj\Debug\ProductTracker.Data.pdb
-C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\obj\Debug\ProductTracker.Data.Migrations.initialMigration.resources
-C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.Data\obj\Debug\ProductTracker.Data.csproj.GenerateResource.cache

@@ -1,5 +1,3 @@
-C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\obj\Debug\ProductTracker.WebMVC.csproj.AssemblyReference.cache
-C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\obj\Debug\ProductTracker.WebMVC.csproj.CoreCompileInputs.cache
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\bin\ProductTracker.WebMVC.dll.config
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\bin\ProductTracker.WebMVC.dll
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\bin\ProductTracker.WebMVC.pdb
@@ -112,6 +110,8 @@ C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\obj\Debug\ProductTracker.WebMVC.csproj.AssemblyReference.cache
+C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\obj\Debug\ProductTracker.WebMVC.csproj.CoreCompileInputs.cache
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\obj\Debug\ProductTracker.WebMVC.csproj.CopyComplete
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\obj\Debug\ProductTracker.WebMVC.dll
 C:\Users\ethan\Desktop\ElevenFiftyProjects\ProductTracker\ProductTracker.WebMVC\obj\Debug\ProductTracker.WebMVC.pdb

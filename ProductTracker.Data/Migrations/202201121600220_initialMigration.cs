@@ -1,4 +1,6 @@
-﻿namespace ProductTracker.Data.Migrations
+﻿using System.Data.Entity.Migrations;
+
+namespace ProductTracker.Data.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
