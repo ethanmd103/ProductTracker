@@ -33,6 +33,8 @@ namespace ProductTracker.Data
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Purchase> Purchases { get; set; }
+        public DbSet<Resell> Resells { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

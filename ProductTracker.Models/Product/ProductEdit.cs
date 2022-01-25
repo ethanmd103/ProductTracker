@@ -11,7 +11,6 @@ namespace ProductTracker.Models.Product
     {
         [Display(Name = "Product Id")]
         public int ProductID { get; set; }
-        [Required]
         [Display(Name = "Product Name")]
         public string Name { get; set; }
         [Display(Name = "Category Name")]

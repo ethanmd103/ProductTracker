@@ -50,7 +50,56 @@ namespace ProductTracker.Services
                             Category = e.Category,
                             MSRP = e.MSRP
                         });
+                
                 return query.ToArray();
+            }
+        }
+        public ProductDetail GetProductById(int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = ctx
+                    .Products
+                    .Single(e => e.ProductID == id & e.OwnerID == _UserId);
+                return
+                    new ProductDetail
+                    {
+                        ProductID = entity.ProductID,
+                        Name = entity.Name,
+                        Category = entity.Category,
+                        MSRP = entity.MSRP
+                    };
+            }
+        }
+        public bool UpdateProduct (ProductEdit model)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                    .Products
+                    .Single(e => e.ProductID == model.ProductID && e.OwnerID == _UserId);
+
+                entity.ProductID = model.ProductID;
+                entity.Name = model.Name;
+                entity.Category = model.Category;
+                entity.MSRP = model.MSRP;
+               
+                return ctx.SaveChanges() == 1;
+            }
+        }
+
+        public bool DeleteProduct (int productId)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                    .Products
+                    .Single(e => e.ProductID == productId && e.OwnerID == _UserId);
+
+                ctx.Products.Remove(entity);
+                return ctx.SaveChanges() == 1; 
             }
         }
     }

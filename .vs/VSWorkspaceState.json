@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ProductTracker.Data",
+    "\\ProductTracker.Models",
+    "\\ProductTracker.Models\\Product",
+    "\\ProductTracker.Models\\Purchase",
+    "\\ProductTracker.Models\\Resell"
+  ],
+  "SelectedNode": "\\ProductTracker.sln",
+  "PreviewInSolutionExplorer": false
+}

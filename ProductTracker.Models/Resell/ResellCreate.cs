@@ -9,8 +9,8 @@ namespace ProductTracker.Models.Resell
 {
     public class ResellCreate
     {
+        [Display(Name = "Resale Price")]
         [Required]
-        [Display(Name = "Sale Price")]
         public int SalePrice { get; set; }
         [Required]
         public string Customer { get; set; }
@@ -18,5 +18,6 @@ namespace ProductTracker.Models.Resell
         public string Location { get; set; }
         [Required]
         public DateTime ResellDate { get; set; }
+        public virtual List<ProductTracker.Data.Product> Products { get; set; }
     }
 }

@@ -11,7 +11,6 @@ namespace ProductTracker.Models.Resell
     {
         [Display(Name = "Resell Id")]
         public int ResellId { get; set; }
-        [Required]
         [Display(Name = "Sale Price")]
         public int SalePrice { get; set; }
         public string Customer { get; set; }

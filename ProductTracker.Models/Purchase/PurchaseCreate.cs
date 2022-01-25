@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProductTracker.Models.Product;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,18 +10,19 @@ namespace ProductTracker.Models.Purchase
 {
     public class PurchaseCreate
     {
+        [Display(Name = "Item Name")]
         [Required]
-        [Display(Name = "Purchase Name")]
-        public string PurchaseName { get; set; }
-        [Required]
+        public string ItemName { get; set; }
         [Display(Name = "Purchase Price")]
-        public int PurchasePrice { get; set; }
         [Required]
+        public int PurchasePrice { get; set; }
         [Display(Name = "Store")]
+        [Required]
         public string StoreBoughtFrom { get; set; }
         [Required]
         public string Condition { get; set; }
         [Required]
         public DateTime PurchaseDate { get; set; }
+        public virtual List<ProductTracker.Data.Product> Products { get; set; }
     }
 }

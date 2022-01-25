@@ -9,11 +9,11 @@ namespace ProductTracker.Models.Product
 {
     public class ProductCreate
     {
-        [Required]
         [Display(Name = "Product Name")]
-        public string Name { get; set; }
         [Required]
+        public string Name { get; set; }
         [Display(Name = "Category Name")]
+        [Required]
         public string Category { get; set; }
         [Required]
         public int MSRP { get; set; }

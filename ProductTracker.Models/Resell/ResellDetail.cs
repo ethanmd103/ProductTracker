@@ -12,15 +12,11 @@ namespace ProductTracker.Models.Resell
     {
         [Display(Name = "Resell Id")]
         public int ResellId { get; set; }
-        [Required]
         [Display(Name = "Sale Price")]
         public int SalePrice { get; set; }
-        [Required]
         public string Customer { get; set; }
-        [Required]
         public string Location { get; set; }
-        [Required]
         public DateTime ResellDate { get; set; }
-        public virtual List<ProductListItem> Products { get; set; }
+        public virtual List<ProductTracker.Data.Product> Products { get; set; }
     }
 }
