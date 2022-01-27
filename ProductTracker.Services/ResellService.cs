@@ -20,10 +20,12 @@ namespace ProductTracker.Services
         {
             Resell resell = new Resell()
                 {
+                    OwnerID = _UserId,
                     SalePrice = model.SalePrice,
                     Customer = model.Customer,
                     Location = model.Location,
-                    ResellDate = model.ResellDate
+                    ResellDate = model.ResellDate,
+                    ProductId = model.ProductId
                 };
             using (var ctx = new ApplicationDbContext())
             {
@@ -47,9 +49,10 @@ namespace ProductTracker.Services
                             SalePrice = e.SalePrice,
                             Customer = e.Customer,
                             Location = e.Location,
-                            ResellDate = e.ResellDate
-                        }
-                   );
+                            ResellDate = e.ResellDate,
+                            ProductId = e.ProductId
+                        });
+                   
                 return query.ToArray(); 
             }
         }
@@ -68,7 +71,8 @@ namespace ProductTracker.Services
                         SalePrice = entity.SalePrice,
                         Customer = entity.Customer,
                         Location = entity.Location,
-                        ResellDate = entity.ResellDate
+                        ResellDate = entity.ResellDate,
+                        ProductId = entity.ProductId
                     };
             }
         }
@@ -85,6 +89,7 @@ namespace ProductTracker.Services
                 entity.Customer = model.Customer;
                 entity.Location = model.Location;
                 entity.ResellDate = model.ResellDate;
+                entity.ProductId = model.ProductId;
 
                 return ctx.SaveChanges() == 1;
             }

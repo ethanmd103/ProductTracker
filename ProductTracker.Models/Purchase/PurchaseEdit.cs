@@ -19,6 +19,6 @@ namespace ProductTracker.Models.Purchase
         public string StoreBoughtFrom { get; set; }
         public string Condition { get; set; }
         public DateTime PurchaseDate { get; set; }
-        
+        public int ProductId { get; set; }
     }
 }

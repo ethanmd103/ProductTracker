@@ -26,7 +26,8 @@ namespace ProductTracker.Services
                     PurchasePrice = model.PurchasePrice,
                     StoreBoughtFrom = model.StoreBoughtFrom,
                     Condition = model.Condition,
-                    PurchaseDate = model.PurchaseDate
+                    PurchaseDate = model.PurchaseDate,
+                    ProductId= model.ProductId
                 };
             using (var ctx = new ApplicationDbContext())
             {

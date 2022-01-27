@@ -10,7 +10,9 @@ using System.Web.Mvc;
 namespace ProductTracker.WebMVC.Controllers
 {
     public class ResellController : Controller
+       
     {
+        [Authorize]
         // GET: Resell
         public ResellService CreateResellService()
         {
@@ -67,7 +69,9 @@ namespace ProductTracker.WebMVC.Controllers
                     SalePrice = detail.SalePrice,
                     Customer = detail.Customer,
                     Location = detail.Location,
-                    ResellDate = detail.ResellDate
+                    ResellDate = detail.ResellDate,
+                    ProductId = detail.ProductId
+                    
                 };
             return View(model);
         }

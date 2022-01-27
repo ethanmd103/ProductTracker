@@ -13,6 +13,7 @@ namespace ProductTracker.Data
         [Key]
         [Display(Name = "Purchase Id")]
         public int PurchaseId { get; set; }
+        [Required]
         [ForeignKey("Product")]
         public int ProductId { get; set; }
         public Product Product { get; set; }

@@ -10,7 +10,7 @@ namespace ProductTracker.Models.Product
     public class ProductDetail
     {
         [Display(Name = "Product Id")]
-        public int ProductID { get; set; }
+        public int ProductId { get; set; }
         [Display(Name = "Product Name")]
         public string Name { get; set; }
         [Display(Name = "Category Name")]

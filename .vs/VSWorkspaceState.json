@@ -5,7 +5,8 @@
     "\\ProductTracker.Models",
     "\\ProductTracker.Models\\Product",
     "\\ProductTracker.Models\\Purchase",
-    "\\ProductTracker.Models\\Resell"
+    "\\ProductTracker.Models\\Resell",
+    "\\ProductTracker.Services"
   ],
   "SelectedNode": "\\ProductTracker.sln",
   "PreviewInSolutionExplorer": false

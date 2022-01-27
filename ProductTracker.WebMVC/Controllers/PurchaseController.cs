@@ -69,7 +69,8 @@ namespace ProductTracker.WebMVC.Controllers
                 PurchasePrice = detail.PurchasePrice,
                 StoreBoughtFrom = detail.StoreBoughtFrom,
                 Condition = detail.Condition,
-                PurchaseDate = detail.PurchaseDate
+                PurchaseDate = detail.PurchaseDate,
+                ProductId = detail.ProductId
             };
             return View(model);
         }

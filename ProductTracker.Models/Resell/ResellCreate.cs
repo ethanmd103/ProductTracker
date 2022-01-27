@@ -19,5 +19,7 @@ namespace ProductTracker.Models.Resell
         [Required]
         public DateTime ResellDate { get; set; }
         public virtual List<ProductTracker.Data.Product> Products { get; set; }
+        [Required]
+        public int ProductId { get; set; }
     }
 }

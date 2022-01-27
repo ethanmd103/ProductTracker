@@ -66,7 +66,7 @@ namespace ProductTracker.WebMVC.Controllers
             var model =
                 new ProductEdit
                 {
-                    ProductID = detail.ProductID,
+                    ProductId = detail.ProductId,
                     Name = detail.Name,
                     Category = detail.Category,
                     MSRP = detail.MSRP
@@ -80,7 +80,7 @@ namespace ProductTracker.WebMVC.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            if (model.ProductID != id)
+            if (model.ProductId != id)
             {
                 ModelState.AddModelError("", "Id Mismatch");
                 return View(model);

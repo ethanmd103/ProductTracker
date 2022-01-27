@@ -24,5 +24,7 @@ namespace ProductTracker.Models.Purchase
         [Required]
         public DateTime PurchaseDate { get; set; }
         public virtual List<ProductTracker.Data.Product> Products { get; set; }
+        [Required]
+        public int ProductId { get; set; }
     }
 }

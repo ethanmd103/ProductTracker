@@ -25,7 +25,8 @@ namespace ProductTracker.Services
                 OwnerID = _UserId,
                 Name = Model.Name,
                 Category = Model.Category,
-                MSRP = Model.MSRP
+                MSRP = Model.MSRP,
+                
             };
             using (var ctx = new ApplicationDbContext())
             {
@@ -45,7 +46,7 @@ namespace ProductTracker.Services
                         e =>
                         new ProductListItem
                         {
-                            ProductID = e.ProductID,
+                            ProductId = e.ProductId,
                             Name = e.Name,
                             Category = e.Category,
                             MSRP = e.MSRP
@@ -60,11 +61,11 @@ namespace ProductTracker.Services
             {
                 var entity = ctx
                     .Products
-                    .Single(e => e.ProductID == id & e.OwnerID == _UserId);
+                    .Single(e => e.ProductId == id & e.OwnerID == _UserId);
                 return
                     new ProductDetail
                     {
-                        ProductID = entity.ProductID,
+                        ProductId = entity.ProductId,
                         Name = entity.Name,
                         Category = entity.Category,
                         MSRP = entity.MSRP
@@ -78,9 +79,9 @@ namespace ProductTracker.Services
                 var entity =
                     ctx
                     .Products
-                    .Single(e => e.ProductID == model.ProductID && e.OwnerID == _UserId);
+                    .Single(e => e.ProductId == model.ProductId && e.OwnerID == _UserId);
 
-                entity.ProductID = model.ProductID;
+                entity.ProductId = model.ProductId;
                 entity.Name = model.Name;
                 entity.Category = model.Category;
                 entity.MSRP = model.MSRP;
@@ -96,7 +97,7 @@ namespace ProductTracker.Services
                 var entity =
                     ctx
                     .Products
-                    .Single(e => e.ProductID == productId && e.OwnerID == _UserId);
+                    .Single(e => e.ProductId == productId && e.OwnerID == _UserId);
 
                 ctx.Products.Remove(entity);
                 return ctx.SaveChanges() == 1; 

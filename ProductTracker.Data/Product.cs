@@ -11,7 +11,7 @@ namespace ProductTracker.Data
     {
         [Key]
         [Display(Name = "Product Id")]
-        public int ProductID { get; set; }
+        public int ProductId { get; set; }
         [Required]
         [Display(Name = "Product Name")]
         public string Name { get; set; }

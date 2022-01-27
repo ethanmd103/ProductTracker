@@ -23,7 +23,7 @@ namespace ProductTracker.WebMVC
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new Bundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap-cerulean.css",
                       "~/Content/site.css"));
         }
     }

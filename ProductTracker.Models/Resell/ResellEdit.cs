@@ -16,5 +16,6 @@ namespace ProductTracker.Models.Resell
         public string Customer { get; set; }
         public string Location { get; set; }
         public DateTime ResellDate { get; set; }
+        public int ProductId { get; set; }
     }
 }
